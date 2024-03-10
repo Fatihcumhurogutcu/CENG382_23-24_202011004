@@ -1,0 +1,13 @@
+/* -----ANIMATION FOR BOTH LOGIN AND USER REGISTRATION PAGE----- */
+
+
+input[type="submit"]:hover {
+
+    background-color: rgb(65, 160, 77); 
+
+}
+
+table th:hover {
+    background-color: #f2f2f2; /* Gri arka plan */
+}
+
