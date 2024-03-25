@@ -1,0 +1,37 @@
+@page
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Addition Form</title>
+<link rel="stylesheet" href="~/css/AdditionForm.css">
+
+</head>
+<body>
+
+<button id="toggle-button">Hide</button>
+
+<div class="container" id="content">
+  <h1>Addition Form</h1>
+  <form id="addition-form">
+    <div class="input-group">
+      <label for="first-number">Enter first number:</label>
+      <input type="number" id="first-number" name="first-number">
+    </div>
+    <div class="input-group">
+      <label for="second-number">Enter second number:</label>
+      <input type="number" id="second-number" name="second-number">
+    </div>
+    <button type="button" id="calculate-button">Calculate Sum</button>
+    <div id="result"></div>
+  </form>
+</div>
+
+<script src="~/js/AdditionForm.js"></script>
+</body>
+</html>

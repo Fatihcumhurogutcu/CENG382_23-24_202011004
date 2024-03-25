@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\RazorPage.bundle.scp.css"
     },
     {
+      "Id": "c:\\Users\\fatih\\Desktop\\CENG382_23-24_202011004\\RazorPage\\wwwroot\\css\\AdditionForm.css",
+      "PackagePath": "staticwebassets\\css\\AdditionForm.css"
+    },
+    {
       "Id": "c:\\Users\\fatih\\Desktop\\CENG382_23-24_202011004\\RazorPage\\wwwroot\\css\\cover.css",
       "PackagePath": "staticwebassets\\css\\cover.css"
     },
     {
       "Id": "c:\\Users\\fatih\\Desktop\\CENG382_23-24_202011004\\RazorPage\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "c:\\Users\\fatih\\Desktop\\CENG382_23-24_202011004\\RazorPage\\wwwroot\\js\\AdditionForm.js",
+      "PackagePath": "staticwebassets\\js\\AdditionForm.js"
     },
     {
       "Id": "c:\\Users\\fatih\\Desktop\\CENG382_23-24_202011004\\RazorPage\\wwwroot\\js\\site.js",

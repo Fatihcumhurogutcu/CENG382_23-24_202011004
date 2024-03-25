@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "G3fGZKEeJUPH4VUYyjpeBxyzVNfeHNVioJ6Fpmj04Ac=",
+  "Hash": "tC1D/icrn1d04clbwfqUvW0JXYZtcO8r5h87uBk9V+4=",
   "Source": "RazorPage",
   "BasePath": "_content/RazorPage",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "c:\\Users\\fatih\\Desktop\\CENG382_23-24_202011004\\RazorPage\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RazorPage.bundle.scp.css"
     },
     {
+      "Identity": "c:\\Users\\fatih\\Desktop\\CENG382_23-24_202011004\\RazorPage\\wwwroot\\css\\AdditionForm.css",
+      "SourceId": "RazorPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\fatih\\Desktop\\CENG382_23-24_202011004\\RazorPage\\wwwroot\\",
+      "BasePath": "_content/RazorPage",
+      "RelativePath": "css/AdditionForm.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AdditionForm.css"
+    },
+    {
       "Identity": "c:\\Users\\fatih\\Desktop\\CENG382_23-24_202011004\\RazorPage\\wwwroot\\css\\cover.css",
       "SourceId": "RazorPage",
       "SourceType": "Discovered",
@@ -91,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "c:\\Users\\fatih\\Desktop\\CENG382_23-24_202011004\\RazorPage\\wwwroot\\js\\AdditionForm.js",
+      "SourceId": "RazorPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\fatih\\Desktop\\CENG382_23-24_202011004\\RazorPage\\wwwroot\\",
+      "BasePath": "_content/RazorPage",
+      "RelativePath": "js/AdditionForm.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\AdditionForm.js"
     },
     {
       "Identity": "c:\\Users\\fatih\\Desktop\\CENG382_23-24_202011004\\RazorPage\\wwwroot\\js\\site.js",
