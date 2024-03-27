@@ -1,0 +1,15 @@
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\bin\Debug\net8.0\CENG382_23-24_202011004.exe
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\bin\Debug\net8.0\CENG382_23-24_202011004.deps.json
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\bin\Debug\net8.0\CENG382_23-24_202011004.runtimeconfig.json
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\bin\Debug\net8.0\CENG382_23-24_202011004.dll
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\bin\Debug\net8.0\CENG382_23-24_202011004.pdb
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\obj\Debug\net8.0\CENG382_23-24_202011004.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\obj\Debug\net8.0\CENG382_23-24_202011004.AssemblyInfoInputs.cache
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\obj\Debug\net8.0\CENG382_23-24_202011004.AssemblyInfo.cs
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\obj\Debug\net8.0\CENG382_23-24_202011004.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\obj\Debug\net8.0\CENG382_23-24_202011004.sourcelink.json
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\obj\Debug\net8.0\CENG382_23-24_202011004.dll
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\obj\Debug\net8.0\refint\CENG382_23-24_202011004.dll
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\obj\Debug\net8.0\CENG382_23-24_202011004.pdb
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\obj\Debug\net8.0\CENG382_23-24_202011004.genruntimeconfig.cache
+C:\Users\fatih\Desktop\CENG382_23-24_202011004\obj\Debug\net8.0\ref\CENG382_23-24_202011004.dll
