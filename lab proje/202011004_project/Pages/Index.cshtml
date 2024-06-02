@@ -1,0 +1,96 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('/photos/2.jpg');
+            background-size: cover;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container3 {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: transparent; /* Arka plan rengini kaldırdık */
+            border-radius: 10px;
+            box-shadow: none; /* Gölgeyi kaldırdık */
+            color: #fff; /* Yazı rengini beyaz yaptık */
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .display-4 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .custom-welcome {
+            color: #fff;
+        }
+
+        .custom-link {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #00c336;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .custom-link:hover {
+            background-color: #00b336;
+        }
+
+        .logout-link {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #dc3545; /* Kırmızı renk */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .logout-link:hover {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container3">
+        <div class="text-center">
+            <h1 class="display-4 custom-welcome">
+                Welcome to the OGUTCU Hotels Reservation System
+            </h1>
+            <p>
+                <a class="custom-link" href="http://localhost:5112/Identity/Account/Register">Register</a>
+            </p>
+            <p>
+                <a class="custom-link" href="http://localhost:5112/Identity/Account/Login">Login</a>
+            </p>
+            
+        </div>
+    </div>
+</body>
+</html>

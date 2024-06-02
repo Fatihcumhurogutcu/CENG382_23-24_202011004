@@ -1,0 +1,114 @@
+﻿@page
+@model MyApp.Namespace.ProfileModel
+@{
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Profil</title>
+    <style>
+        body {
+            background-image: url('/photos/2.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .profile-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input[type="text"], input[type="number"], input[type="email"], select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        textarea {
+            resize: vertical;
+        }
+        button, #showFavorites {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover, #showFavorites:hover {
+            background-color: #218838;
+        }
+        .profile-photo-section img {
+            display: block;
+            margin: 10px auto;
+            border-radius: 50%;
+        }
+        .profile-photo-section, .personal-info-section, .additional-info-section, .favorites-section, .account-info-section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Profil</h1>
+        <form method="post" enctype="multipart/form-data">
+            <div class="profile-photo-section">
+                <label for="profilePhoto">Profil Fotoğrafı:</label>
+                <input type="file" id="profilePhoto" name="profilePhoto" accept="image/*" onchange="loadFile(event)">
+                <img id="output" width="200" />
+                <script>
+                    var loadFile = function(event) {
+                        var output = document.getElementById('output');
+                        output.src = URL.createObjectURL(event.target.files[0]);
+                        output.onload = function() {
+                            URL.revokeObjectURL(output.src) // free memory
+                        }
+                    };
+                </script>
+            </div>
+            <div class="personal-info-section">
+                <label for="age">Yaş:</label>
+                <input type="number" id="age" name="age" required />
+                <label for="gender">Cinsiyet:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Erkek</option>
+                    <option value="female">Kadın</option>
+                    <option value="other">Diğer</option>
+                </select>
+                
+            </div>
+            
+            <div class="account-info-section">
+                <label for="username">Kullanıcı Adı:</label>
+                <input type="text" id="username" name="username" required />
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" name="email" required />
+            </div>
+            <button type="submit">Kaydet</button>
+        </form>
+    </div>
+</body>
+</html>

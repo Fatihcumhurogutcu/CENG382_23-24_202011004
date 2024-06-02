@@ -1,0 +1,38 @@
+﻿@page
+@model loginDemo.Pages.AddReservationModel
+@{
+    ViewData["Title"] = "Add Room";
+}
+
+<h1>Add Room</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="RoomName">Room Name</label>
+        <input type="text" class="form-control" id="RoomName" name="Room.Name" required />
+    </div>
+    <div class="form-group">
+        <label for="RoomCapacity">Room Capacity</label>
+        <input type="number" class="form-control" id="RoomCapacity" name="Room.Capacity" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Add Room</button>
+</form>
+
+<style>
+    body {
+        background-image: url('/photos/2.jpg');
+        background-size: cover;
+        align-items: center;
+        height: 100vh;
+    
+        color: white;
+    }
+
+    form {
+        width: 300px;
+    }
+
+    .form-group label {
+        color: white;
+    }
+</style>
